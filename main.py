@@ -19,9 +19,9 @@ if __name__ == "__main__":
     grupo4.agregarAlumno("Santiago", ["Jaime", "Pedro"])
     grupo5.agregarAlumno("Javier")
 
-    print(grupo3.listadoAlumnos)
-    print(grupo4.listadoAlumnos)
-    print(grupo5.listadoAlumnos)
+    print(grupo3._listadoAlumnos)
+    print(grupo4._listadoAlumnos)
+    print(grupo5._listadoAlumnos)
 
     grupo3.listadoAsignaturas(as1="Ciencias", as2="Quimica", as3="Ingles")
     print(len(grupo3._asignaturas))
